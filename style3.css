@@ -1,0 +1,45 @@
+.other {
+	padding-top: 20px;
+}
+
+.other h1{
+	text-align: center;
+	line-height: 0.3;
+	font-size: 23px;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flex-container > div {
+	margin: 10px;
+	width: 12%;
+	background-color: #556B2F;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.container {
+	text-align: center;
+	color: white;
+	padding: 1px;
+	font-size: 14px;
+}
+a {
+	text-decoration: none;
+}
+
+a:hover .image {
+	opacity: 0.4;
+}
+
+.polaroid {
+	transition: transform 0.3s;
+}
+
+.polaroid:hover {
+	transform: scale(01.05);
+}

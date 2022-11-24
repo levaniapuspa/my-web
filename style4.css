@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.column {
+  width: 28%;
+  margin: 15px;
+}
+
+.column img {
+  margin: 15px;
+  vertical-align: middle;
+  border: 5px solid #768d3f;
+  border-radius: 5px;
+  background-color: #768d3f;
+  transition: transform 0.2s;
+}
+
+.column img:hover {
+	transform: scale(01.07);
+}
